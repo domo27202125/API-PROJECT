@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 300vh;
+  background: linear-gradient(green, yellow);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+@keyframes animation {
+  from {
+    letter-spacing: 32px;
+  }
+  to {
+    letter-spacing: 0;
+  }
+}
+
+.animated {
+  animation: animation 5s ease infinite;
+}
+
+h1 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+  color: black;
+  border: solid 1px;
+  font-style: italic;
+  color: #373fff;
+}
+
+#category {
+  text-decoration: underline;
+  color: blue;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 75px;
+  font-variant-caps: caps;
+  text-align: center;
+  font-size: 200%;
+}
+
+#setup {
+  text-decoration: inline;
+  color: White;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 100px;
+  font-variant: small-caps;
+  font-size: 125%;
+}
+
+#delivery {
+  text-decoration: underline;
+  color: blue;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 100px;
+  font-variant-caps: all-petite-caps;
+font-size: 125%;
+}
+
+#content {
+  text-decoration: underline;
+  color: White;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 100px;
+  font-variant: small-caps;
+font-size: 125%;
+}
+
+#warning {
+  color: red;
+  font-weight: 500px;
+  font-size: 400%;
+  text-align: center;
+  outline-color: yellow;
+  border-bottom: 5px solid yellow;
+  outline-style: solid;
+}
+
+#search{
+  color:grey;
+  font-family:"Lucida Console", Courier, monospace;
+  font-size:100%;
+}
